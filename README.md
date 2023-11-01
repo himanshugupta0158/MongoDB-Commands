@@ -100,21 +100,21 @@ db.comments.updateOne({name: 'Shubham'},
 ```
 - Mongodb Increment Operator
 ```bash
-db.comments.update({name: 'Rohan'},
+db.comments.update({name: 'Ramesh'},
 {$inc:{
     member_since: 2
 }})
 ```
 - Mongodb Rename Operator
 ```bash
-db.comments.update({name: 'Rohan'},
+db.comments.update({name: 'Ramesh'},
 {$rename:{
     member_since: 'member'
 }})
 ```
 - Delete Row 
 ```bash
-db.comments.remove({name: 'Harry'})
+db.comments.remove({name: 'Jake'})
 ```
 - Less than/Greater than/ Less than or Eq/Greater than or Eq
 ```bash
