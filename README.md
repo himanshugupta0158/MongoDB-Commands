@@ -123,6 +123,7 @@ db.comments.find({member_since: {$lt: 90}})
 ```bash
 db.comments.find({member_since: {$lte: 90}})
 ```
+```
 ```bash
 db.comments.find({member_since: {$gt: 90}})
 ```
